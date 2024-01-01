@@ -49,5 +49,9 @@
         <item>EfficientNet Lite1</item>
         <item>EfficientNet Lite2</item>
         <item>Custom CNN</item>
+        <item>Q. Fullint</item>
+        <item>Quantized</item>
+        <item>Q. Aware (INT)</item>
+        <item>Q. Only Int (INT)</item>
     </string-array>
 </resources>

@@ -81,6 +81,10 @@ class ImageClassifierHelper(
                 MODEL_EFFICIENTNETV1 -> "efficientnet-lite1.tflite"
                 MODEL_EFFICIENTNETV2 -> "efficientnet-lite2.tflite"
                 MODEL_CNN -> "modelcnn.tflite"
+                MODEL_QF -> "model_quant_fullint_metadata.tflite"
+                MODEL_QUANT -> "model_quant_metadata.tflite"
+                MODEL_QA -> "model_quant_aware_onlyint_metadata.tflite"
+                MODEL_QI -> "model_quant_onlyint_metadata.tflite"
                 else -> "mobilenetv1.tflite"
             }
 
@@ -158,6 +162,10 @@ class ImageClassifierHelper(
         const val MODEL_EFFICIENTNETV1 = 2
         const val MODEL_EFFICIENTNETV2 = 3
         const val MODEL_CNN = 4
+        const val MODEL_QF = 5
+        const val MODEL_QUANT = 6
+        const val MODEL_QA = 7
+        const val MODEL_QI = 8
 
         private const val TAG = "ImageClassifierHelper"
     }

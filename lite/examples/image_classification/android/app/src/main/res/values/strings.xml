@@ -51,6 +51,8 @@
         <item>Custom CNN</item>
         <item>Q. Fullint</item>
         <item>Quantized</item>
+        <item>Pruned</item>
+        <item>Pruned Q.</item>
         <item>Q. Aware (INT)</item>
         <item>Q. Only Int (INT)</item>
     </string-array>

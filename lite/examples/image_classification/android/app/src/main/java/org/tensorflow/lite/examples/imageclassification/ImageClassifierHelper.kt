@@ -85,6 +85,7 @@ class ImageClassifierHelper(
                 MODEL_QUANT -> "model_quant_metadata.tflite"
                 MODEL_PRUNED -> "model_pruned_metadata.tflite"
                 MODEL_PRUNED_Q -> "model_quant_pruned_metadata.tflite"
+                MODEL_QAU -> "model_quant_aware_onlyuint_metadata.tflite"
                 MODEL_QA -> "model_quant_aware_onlyint_metadata.tflite"
                 MODEL_QI -> "model_quant_onlyint_metadata.tflite"
                 else -> "mobilenetv1.tflite"
@@ -168,8 +169,9 @@ class ImageClassifierHelper(
         const val MODEL_QUANT = 6
         const val MODEL_PRUNED = 7
         const val MODEL_PRUNED_Q = 8
-        const val MODEL_QA = 9
-        const val MODEL_QI = 10
+        const val MODEL_QAU = 9
+        const val MODEL_QA = 10
+        const val MODEL_QI = 11
 
         private const val TAG = "ImageClassifierHelper"
     }

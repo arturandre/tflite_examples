@@ -1,3 +1,5 @@
+#Versão adaptada do tutorial do tensorflow apresentada no Curso de Verão do IME-USP.
+
 # TensorFlow Examples
 
 <div align="center">
